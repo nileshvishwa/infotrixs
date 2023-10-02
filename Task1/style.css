@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Libre+Baskerville:wght@700&family=Poppins&family=Roboto:wght@300&family=Rye&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Headland+One&family=Kaushan+Script&family=Libre+Baskerville:wght@700&family=Poppins&family=Roboto:wght@300&family=Rye&family=Style+Script&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+}
+section{
+    background-image:url(images/ps5.jpg);
+    min-height: 100vh;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+    background-image: linear-gradient(45deg, rgb(0, 0, 1) 30%, rgb(158, 96, 165));
+}
+nav h1{
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+    line-height: 80px;
+    font-size: 46px;
+    font-size: inline;
+    color:aliceblue;
+    text-shadow: 1px 2px #f4e4e4;
+    font-family: 'Borel', 'cursive';
+}
+nav ul{
+    float:left;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #eb7620;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1{
+    font-size: 40px;
+    color: azure;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    padding-top: 50px;
+    margin-bottom: 25px;
+
+}
+.article h2{
+    font-size: 25px;
+    color: #eb7620;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #080807, 0 0 20px #000000, 0 0 42px #e7ff12, 0 0 82px rgb(75, 13, 219),0 0 92px rgb(255, 228, 22);
+}
+.article a{
+    color: #fff;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: cornsilk;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.9;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } 
+  .fa-github {
+    background: #05340b;
+    color: white;
+  } 
+  .fa-linkedin {
+    background: #0947ac;
+    color: white;
+  } 
+  .fa-youtube {
+    background: #e40909;
+    color: white;
+  } 
+  .fa-instagram {
+    background: #c41c6d;
+    color: white;
+  } 
+   .mid{
+    background-image: linear-gradient(45deg, rgb(203, 156, 2) 30%, rgb(177, 171, 178));
+      height: 64vh;
+      display: flex;
+   }
+   .abouth1{
+    
+        justify-content: center;
+   }
+   .right h1{
+    text-align: center;
+    font-weight: 200;
+    color: azure;
+    padding-right: 50%;
+    padding-top: 10%;
+    font-family: 'Headland One', serif;
+    font-size:20px;
+    justify-content: center;
+   }
+   .para{
+    width: 80vh;
+   }
+   .right{
+    margin-left: 10%;
+   }
+   .para p{
+    color: rgb(9, 15, 15);
+    font-weight: 900;
+   }
+   .left{
+   width:10vh;
+   padding-left: 4%;
+   cursor: pointer;
+   }
+   .more-content {
+    display: none;
+  }
+
+   *{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif; 
+    box-sizing: border-box;
+   }
+.contact{
+    background-image: linear-gradient(45deg, rgb(203, 156, 2) 30%, rgb(177, 171, 178));
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    background-position: center;
+    background-size:cover ;
+    align-items: center;
+    justify-content: center;
+    padding-left: 600px;
+}
+.contactbox h2{
+    text-align: center;
+    font-weight: 800;
+    color: rgb(3, 6, 6);
+    padding-right: 10%;
+    font-family: 'Headland One', serif;
+    font-size: 40px;
+    justify-content: center;
+    
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}
+body{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif; 
+    box-sizing: border-box;
+   }
+.photography{
+    background-image: linear-gradient(45deg, rgb(203, 156, 2) 30%, rgb(177, 171, 178));
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    background-position: center;
+    background-size:cover ;
+    align-items: center;
+    justify-content: center;
+}
+.service{
+    background-image: linear-gradient(45deg, rgb(29, 42, 45) 30%, rgb(253, 253, 253));
+    display: flex;
+    height: 220px;
+}
+  .service h1{
+    
+    text-align: center;
+    font-weight: 500;
+    color: azure;
+    padding-right: 5%;
+    font-size: 35px;
+    display: flex;
+    text-decoration: underline;
+
+}
+.service p{
+    font-weight: 500;
+    font-size: 6vh;
+    color:#e40909;
+    display: flex;
+    text-align: center;
+    padding-left:4%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row{
+    background-image: linear-gradient(45deg, rgb(203, 156, 2) 30%, rgb(177, 171, 178));
+    margin: auto;
+    background-position: 58%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 60px;
+}
+.column {
+  flex: 50%;
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  border-radius: 20px;
+}

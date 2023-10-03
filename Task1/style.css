@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
 }
+
 section{
     background-image:url(images/ps5.jpg);
     min-height: 100vh;
@@ -387,5 +388,86 @@ footer  p{
 }
 .quicklinks ul li a:hover{
     color: #fff;
+
+}
+
+
+@media screen and (max-width:600px){
+
+
+    section{
+        background-image: linear-gradient(#eb9191,#000000);
+            }   
+            nav{
+                height: 150px;
+                background-image: linear-gradient(45deg, rgb(0, 0, 1) 30%, rgb(158, 96, 165));
+            }
+            nav h1{
+                font-size: 20px; 
+                text-align: right;
+                padding-right: 80px;
+                padding-top:0px;
+            }
+            nav ul{
+                float:left;
+                line-height: 30px;
+            }
+            .article{
+                width:50%;
+                height: 20%;
+                text-align: center;
+                justify-content: center;
+                }
+            
+            .article h1{
+                font-size: 20px;
+                letter-spacing: 1.1px;
+                font-weight: 600;
+             
+            
+            }
+            .article h2{
+                font-size: 15px;
+                color: #cdc2ba;
+                letter-spacing: 0.2px;
+                font-weight: 300;
+                margin-bottom: 10px;
+            }
+            .fa {
+                padding: 5px;
+                font-size: 10px;
+                width: 40px;
+                border-radius: 40%;
+              }
+              .mid{
+                background-image: linear-gradient(45deg, rgb(203, 156, 2) 30%, rgb(177, 171, 178));
+                  height: 100vh;
+                  display: flex;
+                  display: block;
+               }
+               .right h1{
+                text-align: center;
+                font-weight: 50;
+                color: azure;
+                padding-right: 50%;
+                padding-top: 10%;
+                font-family: 'Headland One', serif;
+                font-size:  15px;
+                justify-content: center;
+               }
+               .para{
+                width: 30vh;
+               }
+               .right{
+                margin-left: 10%;
+               }
+               .para p{
+                color: rgb(9, 15, 15);
+                font-weight: 700;
+               }
+               .left{
+               width: 10px;
+               }
+
 
 }

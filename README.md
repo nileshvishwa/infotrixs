@@ -1,4 +1,4 @@
 Task 1
 
-https://vishwanilesh09.github.io/info-task/Task1/
+https://vishwanilesh09.github.io/infotrixs/Task1/
 
